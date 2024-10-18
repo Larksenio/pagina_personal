@@ -133,7 +133,7 @@ body {
 
 @media (max-width: 600px) {
   #portafolio {
-    flex-wrap: wrap; /* En pantallas pequeñas, volvemos a permitir que las tarjetas se apilen verticalmente */
+    padding: 1rem;
   }
 
   .project-card {
@@ -161,7 +161,16 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+footer i {
+  font-size: 2rem; /* Ajusta el tamaño del icono */
+  color: white; /* Color blanco para los iconos */
+  margin: 0 1rem; /* Espacio entre los iconos */
+  transition: color 0.3s ease; /* Añade una transición suave para el hover */
+}
 
+footer i:hover {
+  color: #1da1f2; /* Cambia el color en hover (en este caso para Twitter) */
+}
 section {
   margin-bottom: 3rem;
 }
