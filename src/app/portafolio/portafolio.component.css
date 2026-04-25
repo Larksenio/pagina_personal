@@ -1,0 +1,12 @@
+/* Contenedor flex para envolver las tarjetas en un grid */
+:host {
+  display: block;
+  width: 100%;
+}
+
+/* Utilizamos el mismo grid del CSS global pero aquí podemos añadir estilos específicos */
+@media (max-width: 1024px) {
+  :host {
+    width: 100%;
+  }
+}
